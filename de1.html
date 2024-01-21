@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đề 1</title>
+    <style>
+        .background{
+            background-color: burlywood;
+        }
+        .banner{
+            background-image: url("img/Capture.JPG");    
+                   
+            background-repeat: no-repeat;
+            border-radius: 15px;
+            height: 200px; 
+            /* opacity: 0.5; */
+        }
+        .ghiencf{
+            font-size: 30px;
+            color: black;
+            position: relative;
+            font-weight: bolder;
+            top: 80px;
+            left: 300px;
+        }
+        .nav{
+            margin-top: 5px;
+            color:white;
+            background-color: brown;
+            border-radius: 10px;
+        }
+        ul{           
+            list-style-type: none;     
+            width: 100%;
+            padding: .5em;
+            margin:0;
+           
+        }
+        li{            
+            display: inline;
+            border-right: cornsilk 1px solid;
+          }
+        li a{
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+        }
+        li:last-child{
+            border-right: none;
+        }
+        
+        .uongcf{
+            clear: both;
+            font-size: 25px;
+            font-weight: 900;
+            color: rgb(17, 27, 177);
+            border-bottom: dashed 1px black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            letter-spacing: 10px;
+        }
+        .lamcf{
+            clear: both;
+            font-size: 25px;
+            font-weight: 900;
+            color: rgb(17, 27, 177);
+            border-bottom: dashed 1px black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            letter-spacing: 10px;
+            margin-top: 45px;
+        }
+        .cf_saigon{
+            color: indigo;
+
+        }
+        .ndung{     
+            position: relative;
+            left: 10px;  
+            text-align: justify;
+            margin-right: 10px;
+        }
+        .img1{
+            float:left;
+        }
+        .xemtiep{
+            text-align: right;
+        }
+        .fs20{
+            position: relative;
+            font-size: 20px;
+            text-align: justify;
+            margin-right: 20px;
+            margin-left: 300px;
+        }
+        .column {
+        float: left;
+        width: 30%;
+        padding: 15px;
+        }
+
+        /* Clear floats after the columns */
+        .row::after {
+        content: "";
+        display: table;
+        clear: both;
+        }
+        .canhgiua{
+            text-align: center;
+        }
+        .canhdeu{
+            text-align: justify;
+        }
+        .footer{
+            background-color: gray;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        .img_footer{
+            float:right;
+            border-radius: 50%;
+            width: 100px;            
+        }
+        .img_2{
+            width: 100%; 
+            box-shadow: 2px 2px 2px 2px green;
+        }
+        .img_3{
+            width: 100%; 
+            border-radius: 25%;
+        }
+        .img_4{
+            width: 100%; 
+            border: 2px     ;
+            border-top-right-radius: 15%;
+            border-bottom-left-radius: 15%;
+        }
+        
+
+        @media screen and (max-width:600px) {
+        .column {
+            width: 100%;
+        }
+       
+        }
+    </style>
+  
+</head>
+<body class="background">
+    <div>
+        <div class="banner">
+            <!-- <p class="ghiencf">SÀI GÒN CAFE</p>             -->
+        </div>
+        <div class="nav canhgiua">
+            <ul>
+                <li> <a href="">Giới thiệu</a></li>
+                <li> <a href="">Đi cà phê</a></li>
+                <li> <a href="">Uống cà phê</a></li>
+                <li> <a href="">Làm cà phê</a></li>
+                <li> <a href="">Mua cà phê</a></li>
+                <li> <a href="">Mở cà phê</a></li>
+                <li> <a href="">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div>
+            <p class="uongcf"> UỐNG CÀ PHÊ</p>
+        </div>
+        <div>
+            <div class="pic">
+                <img class="img1" src="img/bacsiu.jfif" alt="">
+              
+                <div class="ndung"> 
+                    <h2 class="cf_saigon">Bạc xỉu: Câu chuyện sữa - cà phê của người Sài Gòn</h2>
+                    <p class="fs20">
+                    Bạc xỉu không phải cà phê sữa. Câu chuyện bạc xỉu là chuyện về ly sữa vị cà phê, và thứ vị bình dân không thể lẫn lộn.
+                    Bạc xỉu nét văn hóa mà người Sài Gòn luôn tôn trọng, nâng niu. Hồn cốt món ấy giữ lại tại Sài Gòn cũ. Cà phê sữa đặc, bạc xỉu cùng nhiều món ăn khác, đã theo chân cộng đồng người Hoa đến Sài Gòn và trở thành một phần di sản của thị phố.
+                    
+                    Khoảng những năm 50 ... </p>
+                    <div class="xemtiep" ><a href=""><i>Xem tiếp</i> </a></div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="lamcf"> LÀM CÀ PHÊ</p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="img_2" src="img/cafesach.jpg" alt="">
+              <h2 class="canhgiua">Lập kế hoạch kinh doanh quán cafe sách</h2>
+              <p class="canhdeu">
+                Thị trường kinh doanh đồ uống ngày càng phát triển, mức độ cạnh tranh ngày càng cao, vì thế đối với những người chủ đang có ý định mở quán cafe kinh doanh thì trước tiên cần chọn cho mình một mô hình phù hợp với sở thích và điều kiện bản thân nhất. 
+                Và mô hình quán cafe sách được bạn lựa chọn, nhưng bạn đang không biết bắt đầu từ đâu, thực hiện như thế nào…</p>
+                <div class="xemtiep" ><a href=""><i>Xem tiếp</i> </a></div>
+            </div>
+            
+            <div class="column">
+                <img class="img_3" src="img/kinh-nghiem-mo-quan-ca-phe-nho-1.jpg" alt="">
+              <h2 class="canhgiua">Kinh nghiệm mở quán cà phê nhỏ</h2>
+              <p class="canhdeu">Đối với người trẻ mới bắt đầu, những kinh nghiệm mở quán cà phê nhỏ của người đi trước là vô cùng cần thiết. 
+                  Bởi hiện nay, mở quán cà phê đang là một trong những ngành nghề kinh doanh được nhiều bạn trẻ lựa chọn nhất bởi thu nhập hấp dẫn, nhu cầu cao lại rất hợp với phong cách giới trẻ hiện nay.
+                Tuy nhiên việc vận hành một quán cà phê không hề dễ dàng như bạn tưởng. 
+                Kể cả những người đã có vài năm kinh doanh, đây vẫn là ngành nghề cạnh tranh vô cùng khốc liệt và cần một bản lĩnh vững vàng. </p>
+                <div class="xemtiep" ><a href=""><i>Xem tiếp</i> </a></div>
+            </div>
+            
+            <div class="column">
+                <img class="img_4" src="img/cafengon.jpg" alt="">
+              <h2 class="canhgiua">Loại cà phê nào ngon nhất?</h2>
+              <p class="canhdeu">Hãy chọn loại cà phê cung cấp chi tiết về nguồn gốc của nó về nguồn gốc, xuất xứ, công ty sản xuất. 
+                  Những nguồn cung cấp cà phê uy tín sẽ chế biến cà phê cẩn thận và đảm bảo độ nguyên chất cho sản phẩm. 
+                  Đặc biệt, không mua cà phê trôi nổi trên thị trường hay không rõ nơi sản xuất.
+                  Cà phê chất lượng thường sẽ có ngày rang để người tiêu dùng có thể kiểm tra độ tươi của sản phẩm. Cà phê nên được sử dụng trong vòng một tháng kể từ ngày rang, vì vậy khi mua hãy để ý đến chi tiết này trên bao bì sản phẩm nhé.
+                  <div class="xemtiep" ><a href=""><i>Xem tiếp</i> </a></div>
+
+              </p>
+            </div>
+          </div>
+          <div class="footer">
+             <img class="img_footer"src="img/retina-gcp-logo.jpg" alt="">
+              Liên hệ <br>
+              <hr align="left" size="3px" width="70%">
+              Email: info@revocoffee.vn <br>
+              Điện thoại: 0909495980 <br>
+              Nhà xưởng: Block O2, đường 8B, nhà xưởng Kizuna, lot K, KCN Tân Kim, huyện Cần Giuộc, Long An. <br>          
+            </div>
+    </div>
+</body>
+</html>
